@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+@font-face {
+  font-family: "Sansation";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/Sansation_Regular.woff") format("woff"); }
+
+/* line 3, style.css.sass */
+.header {
+  width: 100%;
+  background: #161616;
+  position: fixed; }
+
+/* line 8, style.css.sass */
+.content {
+  margin: 0;
+  padding: 1px;
+  background-color: #161616; }
+  /* line 12, style.css.sass */
+  .content > div {
+    margin: 16px;
+    padding: 16px;
+    background-color: #292929; }
+
+/* line 17, style.css.sass */
+address {
+  text-align: right;
+  margin: 28px 0 0 0;
+  font-size: 0.8em;
+  line-height: 14px;
+  float: right; }
+
+/* line 24, style.css.sass */
+dl {
+  margin-top: -16px; }
+
+/* line 27, style.css.sass */
+h1.logo {
+  font-weight: 200;
+  float: left; }
+
+/* line 31, style.css.sass */
+br {
+  clear: both; }
+
+/* line 34, style.css.sass */
+.c {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 5px;
+  float: left; }
+
+/* line 40, style.css.sass */
+.n0 {
+  background-color: black; }
+
+/* line 42, style.css.sass */
+.n1 {
+  background-color: #161616; }
+
+/* line 44, style.css.sass */
+.n2 {
+  background-color: #5a5a5a; }
+
+/* line 46, style.css.sass */
+.n3 {
+  background-color: #ababab; }
+
+/* line 48, style.css.sass */
+.n4 {
+  background-color: #cfcfcf; }
+
+/* line 50, style.css.sass */
+.n5 {
+  background-color: #ebebeb; }
+
+/* line 52, style.css.sass */
+.n6 {
+  background-color: white; }
+
+/* line 54, style.css.sass */
+.b0 {
+  background-color: #0e2021; }
+
+/* line 56, style.css.sass */
+.b1 {
+  background-color: #1b3d3f; }
+
+/* line 58, style.css.sass */
+.b2 {
+  background-color: #214f67; }
+
+/* line 60, style.css.sass */
+.b3 {
+  background-color: #5b7d8b; }
+
+/* line 62, style.css.sass */
+.b4 {
+  background-color: #578382; }
+
+/* line 64, style.css.sass */
+.b5 {
+  background-color: #ddf4fc; }
+
+/* line 66, style.css.sass */
+.s0 {
+  background-color: #292929; }
+
+/* line 68, style.css.sass */
+.s1 {
+  background-color: #4e4f4f; }
+
+/* line 70, style.css.sass */
+.s2 {
+  background-color: #866966; }
+
+/* line 72, style.css.sass */
+.s3 {
+  background-color: #d1cdca; }
+
+/* line 74, style.css.sass */
+.s4 {
+  background-color: #d8d8ce; }
+
+/* line 76, style.css.sass */
+.s5 {
+  background-color: #c0cdcf; }
+
+/* line 78, style.css.sass */
+.t1 {
+  background-color: #2c2b27; }
+
+/* line 80, style.css.sass */
+.t2 {
+  background-color: #523f39; }
+
+/* line 82, style.css.sass */
+.t3 {
+  background-color: #625f5a; }
+
+/* line 84, style.css.sass */
+.t4 {
+  background-color: #cac9c5; }
+
+/* line 86, style.css.sass */
+.t5 {
+  background-color: #f5f5f7; }
+
+/* line 88, style.css.sass */
+.e1 {
+  background-color: #f5e3cb; }
+
+/* line 90, style.css.sass */
+.e2 {
+  background-color: #fffdc1; }
+
+/* line 92, style.css.sass */
+.e3 {
+  background-color: #fbfbf6; }
