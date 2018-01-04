@@ -51,15 +51,21 @@ ul {
 
 .header a {
   text-decoration: none;
-}
-a {
   color: #f5e3cb;
+}
+.headera:hover {
+  color: #fffdc1;
+  text-shadow: 0px 0px 2px #fffdc1;
+}
+
+a {
+  color: #999999;
   -webkit-transition: 200ms ease-in-out;
 }
 
 a:hover {
-  color: #fffdc1;
-  text-shadow: 0px 0px 2px #fffdc1;
+  color: #aaaaaa;
+  text-shadow: 0px 0px 2px #000000;
 }
 
 body {
