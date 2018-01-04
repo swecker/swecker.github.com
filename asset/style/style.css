@@ -234,7 +234,8 @@ ul,
   .print-light h2,
   .print-light h3,
   .print-light h4,
-  .print-light h5 {
+  .print-light h5,
+  .print-light .header a {
     color: #0f0f0f;
   }
   h1,
