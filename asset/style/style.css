@@ -38,11 +38,11 @@ ul {
 
 .page-wrap {
   background: #222222;
-  margin-bottom: 4.2em;
+  margin-bottom: 4.2rem;
 }
 
 .container {
-  width: 1000px;
+  width: 680px;
   max-width: 100%;
   padding: 0 30px;
   margin: 0 auto;
@@ -53,9 +53,14 @@ ul {
   text-decoration: none;
   color: #f5e3cb;
 }
-.headera:hover {
+.header a:hover {
   color: #fffdc1;
-  text-shadow: 0px 0px 2px #fffdc1;
+  text-shadow: 0px 0px 6px rgba(255, 253, 193, 0.5);
+}
+
+.position-title,
+.position-dates {
+  display: inline-block;
 }
 
 a {
@@ -84,39 +89,50 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+.logo {
   color: #f0f0f0;
   font-family: Sansation, 'Source Sans Pro', sans-serif;
   font-weight: inherit;
-  margin: 0.8em 0 0.4em;
+  margin: 0.8rem 0 0.4rem;
+  page-break-after: avoid;
 }
 
-h1 {
+.logo {
+  font-size: 2rem;
   font-weight: 200;
 }
 
-h2 {
+h1 {
   border-bottom: 1px solid #333333;
+  font-size: 1.5rem;
+}
+
+h2 {
+  color: #999999;
+  font-size: 1.17rem;
 }
 
 h3 {
-  color: #999999;
+  margin-bottom: 0.1rem;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 h4 {
-  margin-bottom: 0.1em;
+  display: inline-block;
+  font-size: 1rem;
   font-weight: 600;
+  margin: 0.4rem 0 0;
 }
 
-h5 {
-  display: inline-block;
-  font-size: 1em;
-  font-weight: 600;
-  margin: 0;
+.page-break {
+  visibility: hidden;
+  page-break-after: always;
 }
 
 .address {
-  margin-bottom: 0.88889em;
+  margin-bottom: 0.88889rem;
   /** 0.4 * 10/9 * 2 */
 }
 
@@ -126,8 +142,7 @@ h5 {
 .position-dates,
 .followup,
 .sub-head {
-  font-size: 0.9em;
-  line-height: 1.66667em;
+  font-size: 0.8rem;
   /** 1.5 * 10/9 */
   color: #999999;
 }
@@ -163,6 +178,7 @@ ul,
 
 .position {
   padding: 0 0 0px 20px;
+  page-break-inside: avoid;
 }
 
 .show-sm {
@@ -175,11 +191,10 @@ ul,
 @media print,
 (min-width: 480px) {
   .address {
-    margin-top: 1.77778em;
-    /** 0.8 * 10/9 * 2 */
+    margin-top: 1rem;
   }
   .main-section-head {
-    padding-right: 2.8em;
+    padding-right: 2.8rem;
     float: left;
     width: 67%;
   }
@@ -191,15 +206,6 @@ ul,
 
 @media print,
 (min-width: 900px) {
-  .main-section {
-    padding-right: 2.8em;
-    float: left;
-    width: 67%;
-  }
-  .side-section {
-    float: right;
-    width: 33%;
-  }
   .show-sm {
     display: none;
   }
@@ -214,7 +220,7 @@ ul,
   }
   body {
     font-size: 12px;
-    line-height: 1.25;
+    line-height: 1.3;
   }
   body.print-light {
     background: none;
@@ -240,20 +246,10 @@ ul,
   }
   h1,
   .address {
-    margin-top: 0;
+    /*margin-top: 0;*/
   }
   .print-light h2 {
     border-bottom: 1px solid #dddddd;
-  }
-  h3,
-  .address,
-  .education-place-year,
-  .education-place-location,
-  .position-dates,
-  .followup,
-  .sub-head {
-    line-height: 1.38889em;
-    /** 1.25 * 10/9 */
   }
   .print-light h3,
   .print-light .address,
