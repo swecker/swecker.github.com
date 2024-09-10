@@ -42,7 +42,7 @@ ul {
 }
 
 .container {
-  width: 680px;
+  width: 815px;
   max-width: 100%;
   padding: 0 30px;
   margin: 0 auto;
@@ -219,7 +219,6 @@ ul,
     margin: 0.38in;
   }
   body {
-    font-size: 12px;
     line-height: 1.3;
   }
   body.print-light {
